@@ -1,0 +1,122 @@
+#vistos {
+    overflow: hidden;
+    position: relative;
+}
+
+#vistos header {
+    margin-bottom: 4rem;
+}
+
+#vistos .cards {
+    padding-bottom: 1rem;
+}
+
+#vistos .card {
+    overflow: hidden;
+    border-radius: 2rem;
+
+    border: 1px solid #b9925741;
+
+    background: linear-gradient(130deg, #000, #140d02);
+}
+
+#vistos .card img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    height: 100%;
+
+    filter: brightness(.6);
+    mask-image: linear-gradient(to bottom, #000 70%, transparent);
+}
+
+#vistos .card .text {
+    padding: 2rem;
+}
+
+#vistos .card .text h3 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+#vistos .card .text p {
+    color: #858585;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    
+    margin-bottom: 1rem;
+}
+
+#vistos .card .text a {
+    color: #B48642;
+    font-size: 1.4rem;
+    cursor: pointer;
+    font-weight: 700;
+
+    transition: all 200ms ease-in-out;
+}
+
+#vistos .card .text a:hover {
+    color: #cf9032;
+}
+
+#vistos .card .text a button {
+    margin-top: 2rem;
+    background: var(--gradient);
+}
+
+section#vistos .swiper-pagination-bullet {
+    background-color: #5151513e; 
+    opacity: 1; 
+    width: 13px;
+    height: 13px;
+  }
+  
+section#vistos .swiper-pagination-bullet-active {
+    background-color: #B48642; 
+}
+
+section#vistos .swiper-button-next {
+    background: #b4864250;
+    padding: 4rem;
+    right: -14%;
+    transform: scale(.6);
+    top: 41%;
+    color: #B48642;
+    border-radius: 2rem;
+}
+  
+section#vistos .swiper-button-prev {
+    background: #b4864250;
+    border-radius: 2rem;
+    padding: 4rem;
+    transform: scale(.6);
+    top: 41%;
+    left: -14%;
+    color: #B48642;
+}
+
+body section#vistos .wrapper .content .swiper.mySwiper1 {
+    overflow: inherit;
+}
+
+@media (min-width: 1080px) {
+    section#vistos header {
+        margin-left: 7rem;
+    }
+
+    section#vistos .swiper-button-next {
+        right: -6%;
+    }
+      
+    section#vistos .swiper-button-prev {
+        left: -6%;
+    }
+
+    section#vistos .cards {
+        padding-bottom: 5rem;
+    }
+
+    section#vistos .cards .card .text h3 {
+        font-size: 1.6rem;
+    }
+}

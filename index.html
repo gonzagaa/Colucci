@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stratum Consórcios</title>
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/icon stratum.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/index.css?v=2" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body id="body" class="smooth-scroll-wrapper">
+    <nav id="navigation" class="">
+      <div class="wrapper">
+        <a class="logo" href="#home">
+          <img src="./assets/LogoColucci.png" alt="" />
+        </a>
+
+        <div class="menu">
+          <ul>
+            <li><a onclick="closeMenu()" href="#home">Home</a></li>
+            <li><a onclick="closeMenu()" href="#sobre">Quem somos</a></li>
+            <li><a onclick="closeMenu()" href="#servicos">Serviços</a></li>
+            <li><a onclick="closeMenu()" href="#sobre">Depoimentos</a></li>
+            <li><a onclick="closeMenu()" href="#sobre">News</a></li>
+            <li><a onclick="closeMenu()" href="#contato">Contato</a></li>
+          </ul>
+
+          <a href="#home"
+            ><img
+              class="logo"
+              onclick="closeMenu()"
+              src="./assets/logo stratum.png"
+              alt=""
+          /></a>
+        </div>
+
+        <button
+          aria-expanded="false"
+          aria-label="Abrir menu"
+          onclick="openMenu()"
+          class="open-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 20H30"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10 12H30"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18 28L30 28"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <button
+          aria-expanded="true"
+          aria-label="Fechar menu"
+          onclick="closeMenu()"
+          class="close-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30M10 10L30 30"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <header class="header" id="home">
+      <img class="bg" src="./assets/cidadania bg.avif" alt="" />
+      <div class="blush um"></div>
+      <div class="blush dois"></div>
+
+      <div class="wrapper">
+        <div class="content">
+          <div class="text">
+            <span class="span">PROCESSO MAIS RÁPIDO DO BRASIL</span>
+            <h1>Realizamos o seu sonho <span>da legalização no EUA!</span></h1>
+            <p>
+              Facilitamos e garantimos sua permanência legal no país com serviços especializados em imigração. Nossa expertise torna <span>seu processo seguro e eficiente</span>.</p>
+            <div class="buttons">
+              <a href="#"><button>Fale com um especialista</button></a>
+            </div>
+
+            <div class="depoimentos">
+                <img src="./assets/depoimentos.png" alt="">
+                <p>+300 clientes satisfeitos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="image">
+                <img class="desktop" src="./assets/desktop stratum.webp" alt="">
+                <img class="mobile" src="./assets/mobile stratum.webp" alt="">
+        </div> -->
+    </header>
+
+    <section id="services">
+        <div class="wrapper">
+            <div class="content">
+                <header>
+                    <h2>Nossos serviços</h2>
+                    <p>Oferecemos soluções completas para sua jornada de imigração, com profissionalismo e dedicação em cada etapa do processo.</p>
+                </header>
+
+                <div class="cards">
+                    <div class="card">
+                        <img src="./assets/icons/1.png" alt="">
+                        <h3>EB-3 e EB-2</h3>
+                        <p>Vistos de trabalho para profissionais qualificados e excepcionais.</p>
+
+                        <div class="topics">
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Processo acelerado para profissionais</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Suporte completo na documentação</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Avaliação prévia de elegibilidade</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/icons/2.png" alt="">
+                        <h3>Green Card Familiar</h3>
+                        <p>Processo de reunificação familiar e residência permanente.</p>
+
+                        <div class="topics">
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Reunião familiar nos EUA</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Acompanhamento personalizado</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Documentação simplificada</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/icons/3.png" alt="">
+                        <h3>Visto de Investidor</h3>
+                        <p>Oportunidades para empreendedores e investidores nos EUA.</p>
+
+                        <div class="topics">
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Análise de plano de negócios</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Consultoria especializada</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Suporte na implementação</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/icons/4.png" alt="">
+                        <h3>Cidadania Italiana</h3>
+                        <p>Reconhecimento de cidadania italiana para descendentes</p>
+
+                        <div class="topics">
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Pesquisa genealógica</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Tradução de documentos</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Processo completo na Itália</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/icons/5.png" alt="">
+                        <h3>Extensão de Visto</h3>
+                        <p>Renovação e extensão de diferentes tipos de vistos.</p>
+
+                        <div class="topics">
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Renovação simplificada</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Análise de elegibilidade</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Processo ágil e seguro</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/icons/6.png" alt="">
+                        <h3>Asilo</h3>
+                        <p>Suporte completo para processos de asilo político.</p>
+
+                        <div class="topics">
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Avaliação do caso</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Preparação completa</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Acompanhamento jurídico</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="porque">
+        <div class="wrapper">
+            <div class="content">
+                <header>
+                    <h2>Por que fazer seu processo com a <span>Colucci</span>?</h2>
+
+                    <div class="cards">
+                        <div class="card">
+                            <h3><ion-icon name="chevron-forward-outline"></ion-icon>Documentação pronta rapidamente</h3>
+                            <p>A consultoria Colucci localiza e coleta os documentos dos seus clientes de maneira ágil</p>
+                        </div>
+
+                        <div class="card">
+                            <h3><ion-icon name="chevron-forward-outline"></ion-icon>Processo de ponta a ponta</h3>
+                            <p>A Colucci cuida de todos os passos necessários para que você tire a sua cidadania, sem taxas surpresa e sem letras miúdas.</p>
+                        </div>
+
+                        <div class="card">
+                            <h3><ion-icon name="chevron-forward-outline"></ion-icon>Atendimento virtual ou presencial</h3>
+                            <p>Você pode optar por seguir todo o processo sem sair de casa, mas fique a vontade para visitar qualquer um dos nossos escritórios pelo país.</p>
+                        </div>
+
+                        <div class="card">
+                            <h3><ion-icon name="chevron-forward-outline"></ion-icon>Acompanhe pelo APP</h3>
+                            <p>Acompanhe 100% do seu processo pelo app de forma fácil e intuitiva, sabendo com exatidão o que falta para finalizar o seu processo e em qual etapa você e sua família estão.</p>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="image">
+                    <img class="mobile" src="./assets/banner colucci mobile.png" alt="">
+                    <img class="desktop" src="./assets/banner colucci.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios">
+      <div class="wrapper">
+        <div class="content">
+          <header>
+            <h2>A <span>maior e melhor</span> assessoria de cidadania italiana da América Latina!</h2>
+          </header>
+
+          <div class="cards">
+            <div class="card">
+              <img src="./assets/beneficios/app.png" alt="">
+              <p>Aplicativo para acompanhar todo o processo</p>
+            </div>
+
+            <div class="card">
+              <img src="./assets/beneficios/adv.png" alt="">
+              <p>Advogados Brasileiros e Italianos na equipe</p>
+            </div>
+
+            <div class="card">
+              <img src="./assets/beneficios/ia.png" alt="">
+              <p>Inteligência artificial no rastreio de documentos</p>
+            </div>
+
+            <div class="card">
+              <img src="./assets/beneficios/cnpj.png" alt="">
+              <p>CNPJ Brasileiro, ou seja, você fica protegido pelo CDC</p>
+            </div>
+
+            <div class="card">
+              <img src="./assets/beneficios/pontos.png" alt="">
+              <p>Pontos de atendimento presenciais no Brasil</p>
+            </div>
+
+            <div class="card">
+              <img src="./assets/beneficios/atendimento.png" alt="">
+              <p>Atendimento realizado em plataforma exclusiva</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="depoimentos">
+      <div class="custom-shape-divider-top-1738367723">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+      </div>
+      <div class="custom-shape-divider-bottom-1736980111">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+      <div class="content">
+          <div class="wrapper header">
+              <header>
+                  <h2>O que <span>nossos clientes</span> dizem?</h2>
+              </header>
+          </div>
+
+          <div class="wrapper carrossel">
+              <div class="swiper mySwiper4">
+                  <div class="cards swiper-wrapper">
+                      <div class="card swiper-slide">
+                  
+                      </div>
+
+                      <div class="card swiper-slide">
+                         
+                      </div>
+
+                      <div class="card swiper-slide">
+                        
+                      </div>
+
+                      <div class="card swiper-slide">
+                         
+                      </div>
+                  </div>
+
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+              </div>
+          </div>
+       </div>
+
+       <img class="bg" src="./assets/banner colucci mobile.png" alt="">
+    </section>
+
+    <section id="vistos">
+      <div class="wrapper">
+        <div class="content">
+          <header>
+            <h2>Tipos de <span>vistos</span></h2>
+            <p>Conheça as diferentes opções de vistos e processos imigratórios disponíveis</p>
+          </header>
+
+          <div class="swiper mySwiper1">
+            <div class="cards swiper-wrapper">
+              <div class="card swiper-slide">
+                <img src="./assets/vistoT.jpg" alt="">
+  
+                <div class="text">
+                  <h3>Visto T</h3>
+                  <p>Destinado a vítimas de tráfico humano nos EUA, permitindo trabalho e possível caminho para residência permanente.</p>
+                  <a href="">Saiba mais</a>
+  
+                  <a href="#"><button>Fale com um especialista</button></a>
+                </div>
+              </div>
+  
+              <div class="card swiper-slide">
+                <img src="./assets/greencard.jpg" alt="">
+  
+                <div class="text">
+                  <h3>Green Card</h3>
+                  <p>O Green Card permite residência e trabalho nos EUA e pode ser obtido por diferentes meios.</p>
+                  <a href="">Saiba mais</a>
+  
+                  <a href="#"><button>Fale com um especialista</button></a>
+                </div>
+              </div>
+  
+              <div class="card swiper-slide">
+                <img src="./assets/visto trabalho eua.jpg" alt="">
+  
+                <div class="text">
+                  <h3>Vistos de Trabalho nos EUA</h3>
+                  <p>Existem diferentes tipos de vistos para trabalhar nos EUA, variando conforme qualificação, experiência ou investimento.</p>
+                  <a href="">Saiba mais</a>
+  
+                  <a href="#"><button>Fale com um especialista</button></a>
+                </div>
+              </div>
+  
+              <div class="card swiper-slide">
+                <img src="./assets/visto estudo eua.jpg" alt="">
+  
+                <div class="text">
+                  <h3>Vistos Temporários para Estudos e Trabalho</h3>
+                  <p>Esses vistos permitem estudar, trabalhar ou investir temporariamente nos EUA, atendendo a requisitos específicos conforme o objetivo da estadia.</p>
+                  <a href="">Saiba mais</a>
+  
+                  <a href="#"><button>Fale com um especialista</button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>     
+        </div>
+      </div>
+    </section>
+
+    <section id="news">
+      <div class="custom-shape-divider-top-1738367723">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+      </div>
+      <div class="custom-shape-divider-bottom-1736980111">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+      <div class="content">
+          <div class="wrapper header">
+              <header>
+                  <h2>Colucci <span>News</span></h2>
+                  <p>Veja algumas novidades sobre nós:</p>
+              </header>
+          </div>
+
+          <div class="wrapper carrossel">
+              <div class="swiper mySwiper5">
+                  <div class="cards swiper-wrapper">
+                      <div class="card swiper-slide">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/U62EF0ePgnE" title="A vida é imprevisível, mas sua segurança e a de sua família não precisam ser." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="card swiper-slide">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/EgusGv507J8" title="O visto T é muito mais do que uma simples autorização de permanência. 🇺🇸" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="card swiper-slide">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/admpfaDqgBo" title="🚐 A Legacy Group vai até você!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="card swiper-slide">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dzDAkabQiIs" title="Hoje foi dia de celebrar! 🎉 Ver nossos clientes recebendo seus documentos é oque nos motiva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="card swiper-slide">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/sY6A31VxYP0" title="Trabalho árduo e grandes sonhos merecem oportunidades! 💼✨" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+
+                      <div class="card swiper-slide">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zwLjoazLELk" title="✨ Encerramos mais um ano com o coração transbordando de gratidão e orgulho!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+                  </div>
+
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+              </div>
+          </div>
+       </div>
+
+       <img class="bg" src="./assets/banner colucci mobile.png" alt="">
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1500,
+      });
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

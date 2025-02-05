@@ -78,6 +78,13 @@
   .logo img {
     width: 14rem;
     margin-left: -1rem;
+
+    filter: drop-shadow(0 0 30px #ffe3ae);
+  }
+
+  nav.scroll .logo img {
+
+    filter: drop-shadow(0 0 15px #ffffffca);
   }
   
   nav button {

@@ -9,6 +9,8 @@ footer {
 footer .logo {
     width: 25rem;
     margin-bottom: 2rem;
+
+    filter: drop-shadow(0 0 30px #ffe3ae40);
 }
 
 footer .content {

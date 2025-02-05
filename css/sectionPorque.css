@@ -114,6 +114,7 @@
     }
 
     section#porque .image img.desktop {
+        border-radius: 2rem;
         display: inherit;
         width: 100%;
         aspect-ratio: 16/11;

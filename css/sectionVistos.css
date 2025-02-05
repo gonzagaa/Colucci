@@ -101,7 +101,7 @@ body section#vistos .wrapper .content .swiper.mySwiper1 {
 
 @media (min-width: 1080px) {
     section#vistos header {
-        margin-left: 7rem;
+        margin-bottom: 5rem;
     }
 
     section#vistos .swiper-button-next {

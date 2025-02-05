@@ -52,10 +52,12 @@ if (larguraDaTela < 800) {
       spaceBetween: 20,
       loop: true,
       grabCursor: true,
-      freeMode: true,
+      navigation: {
+        nextEl: ".swiper-button-prev",
+        prevEl: ".swiper-button-next",
+      },
       pagination: {
         el: ".swiper-pagination",
-        clickable: true,
       },
     });
 }

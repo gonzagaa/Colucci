@@ -44,6 +44,7 @@
     }
 
     section#beneficios .cards .card {
+        height: 100%;
         text-align: center;
 
         flex-direction: column;

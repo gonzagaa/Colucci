@@ -1,0 +1,77 @@
+#redes {
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(5deg, #b4864293 0%, #b99257b0 100%);
+}
+
+#redes img.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#redes header {
+    margin-bottom: 4rem;
+}
+
+#redes .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#redes .cards .card {
+    width: 100%;
+    background: #00000036;
+    padding: 2rem;
+    border-radius: 2rem;
+
+    transition: all 300ms ease-in-out;
+}
+
+#redes .cards .card:hover {
+    cursor: pointer;
+    background: #00000053;
+}
+
+#redes .cards .card ion-icon {
+    font-size: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #000;
+    color: var(--primary-color);
+}
+
+#redes .cards .card h3 {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+#redes .cards .card a {
+    color: #ffffffd0 !important;
+    margin-top: .8rem;
+    font-weight: 300;
+    text-decoration: none !important;
+    font-size: 1.6rem;
+}
+
+@media (min-width: 1080px) {
+    section#redes header {
+        margin-top: 2rem;
+    }
+
+    #redes .cards {
+        flex-direction: row;
+    }
+
+    #redes .cards .card {
+        width: initial;
+    }
+}

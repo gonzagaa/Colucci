@@ -39,7 +39,7 @@
 
 #depoimentos .cards .card {
     width: 100%;
-    aspect-ratio: 9/14;
+    aspect-ratio: 9/16;
     border: 2px solid var(--primary-color);
     background: linear-gradient(130deg, #000, #080601);
     object-fit: cover;
@@ -47,30 +47,9 @@
     overflow: hidden;
 }
 
-#depoimentos .wrapper.carrossel {
-    position: relative;
-}
-
-.swiper-pagination-bullet {
-    background-color: #51515168; /* Altere #ccc para a cor desejada */
-    opacity: 1; /* Certifique-se de que a opacidade está definida como 1 para uma cor sólida */
-    width: 13px;
-    height: 13px;
-  }
-  
-  /* Cor da bolinha ativa */
- .swiper-pagination-bullet-active {
-    background-color: #1d4b74; /* Altere #ff5722 para a cor desejada */
-}
-
-.swiper-button-next {
-    top: 46%;
-    color: #1d4b74; /* Altere #ff5722 para a cor desejada */
-}
-  
-.swiper-button-prev {
-    top: 46%;
-    color: #1d4b74; /* Altere #ff5722 para a cor desejada */
+#depoimentos .cards .card video {
+    width: 100%;
+    height: 100%;
 }
 
 .custom-shape-divider-top-1738367723 {
@@ -136,6 +115,45 @@
     fill: var(--bg-black);
 }
 
+#depoimentos .wrapper.carrossel {
+    position: relative;
+}
+
+section#depoimentos .swiper-pagination-bullet {
+    background-color: #5151513e; 
+    opacity: 1; 
+    width: 13px;
+    height: 13px;
+  }
+  
+section#depoimentos .swiper-pagination-bullet-active {
+    background-color: #000000; 
+}
+
+section#depoimentos .swiper-button-next {
+    background: #180f00ab;
+    padding: 4rem;
+    right: -14%;
+    transform: scale(.6);
+    top: 43%;
+    color: #B48642;
+    border-radius: 2rem;
+}
+  
+section#depoimentos .swiper-button-prev {
+    background: #180f00ab;
+    border-radius: 2rem;
+    padding: 4rem;
+    transform: scale(.6);
+    top: 43%;
+    left: -14%;
+    color: #B48642;
+}
+
+body section#depoimentos .wrapper .swiper.mySwiper4 {
+    overflow: inherit;
+}
+
 
 @media (min-width: 1080px) {
 
@@ -144,15 +162,13 @@
         padding-inline: 0;
     } */
 
-    section#depoimentos .swiper-pagination,
-    section#depoimentos .swiper-button-next,
-    section#depoimentos .swiper-button-prev {
-        display: none;
-    }
-
     section#depoimentos header {
         margin-bottom: 5rem;
         margin-top: 3rem;
+    }
+
+    body section#depoimentos .wrapper .swiper.mySwiper4 {
+        overflow: inherit;
     }
 
     section#depoimentos .content .cards {

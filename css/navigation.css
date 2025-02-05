@@ -190,6 +190,14 @@
   
     position: relative;
   }
+
+  .menu ul li a img {
+    width: 4rem;
+  }
+
+  .menu ul li a.trad::before {
+    display: none;
+  }
   
   .menu ul li a::before {
     content: '';
@@ -291,6 +299,7 @@
     
       nav#navigation .menu ul:nth-child(1) {
         display: flex;
+        align-items: center;
         gap: 3.2rem;
       } 
     
@@ -328,6 +337,14 @@
         display: block;
     
         transition: width 200ms ease-in-out;
+      }
+
+      nav#navigation .menu li a.trad::after {
+        display: none;
+      }
+
+      nav#navigation .menu li a.trad img {
+        margin-bottom: -1rem;
       }
   
       nav#navigation.scroll .menu li a::after {

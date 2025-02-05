@@ -1,0 +1,13 @@
+#home h1 span::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    right: 0;
+    bottom: -5%;
+    width: 70%;
+    height: 25%;
+    background: var(--gradient);
+    opacity: .8;
+    z-index: -1;
+  }

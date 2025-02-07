@@ -109,8 +109,8 @@
         background: linear-gradient(130deg, #000, #080601);
     }
 
-    section#porque .image img.mobile {
-        display: none;
+    section#porque img.mobile {
+        filter: brightness(.5);
     }
 
     section#porque .image img.desktop {

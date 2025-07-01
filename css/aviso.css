@@ -1,0 +1,44 @@
+#aviso h2 {
+    font-size: 2rem;
+
+    margin-bottom: 2rem;
+}
+
+#aviso {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+#aviso h3 {
+    font-size: 1.6rem;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+}
+
+#aviso p {
+    font-size: 1.2rem;
+    color: #9b9b9b;
+    font-family: var(--interV);
+    cursor: pointer;
+}
+
+#aviso img {
+    width: 3rem;
+    margin-bottom: 1rem;
+}
+
+#aviso .text {
+    background: #090909;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    margin-top: 1rem;
+}
+
+@media (min-width: 1080px) {
+    #aviso .texts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3rem;
+    }
+}
